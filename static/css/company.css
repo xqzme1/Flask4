@@ -1,0 +1,21 @@
+body {
+    background: #f7f7f7;
+}
+
+ul li a {
+    color: black;
+}
+
+.nav_company {
+    background: #F88500;
+    border-radius: 0 5px 0 5px;
+    color: white;
+}
+
+.page__inner img {
+    margin-bottom: 30px;
+}
+
+.page__inner p {
+    color: black;
+}

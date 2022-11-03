@@ -1,0 +1,19 @@
+nav {
+    background: white;
+}
+
+.nav__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.nav__inner ul {
+    display: flex;
+}
+
+.nav_socials {
+    background: none;
+}
+

@@ -1,0 +1,67 @@
+/* FOR_ALL */
+body {
+    background: #f7f7f7;
+}
+
+ul li a {
+    color: black;
+}
+
+/* SERVICES*/
+
+.nav_services {
+    background: #F88500;
+    border-radius: 0 5px 0 5px;
+    color: white;
+}
+
+.serv_item {
+    display: flex;
+    width: 38%;
+}
+
+.serv_item_text {
+    background: white;
+    padding: 40px 35px;
+}
+
+.serv_item_text h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.serv_item_text p {
+    text-align: start;
+    color: #7E7E7E
+}
+
+.service_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.serv_item {
+    padding: 10px;
+}
+
+.services_button {
+    margin-bottom: 100px;
+}
+
+.services_button a {
+    background: #F88500;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 0 5px 0 5px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+

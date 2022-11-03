@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block sub_css %}other_nav.css{% endblock %}
+{% block css %}services.css{% endblock %}
+{% block title %}Services{% endblock %}
+{% block body %}
+    {% include 'nav_other.html' %}
+    <main>
+        <div class="page_header">
+            <div class="container">
+                <div class="page__inner">
+                    <h2>НАШИ УСЛУГИ</h2>
+                    <p>Здесь мы собрали все ключевые услуги нашей компании, разбитые <br> по категориям. Если необходимой
+                        вам услуги нет в списке, напишите нам.</p>
+                    <div class="service_items">
+                        <div class="serv_item">
+                            <div class="serv_item_text">
+                                <h3>ДИЗАЙН ИНТЕРЬЕРА</h3>
+                                <p>Мы проектируем потрясающие дизайны интерьеров вот уже более 30 лет и радуем наших
+                                    клиентов неповторимыми работами, выполненными в различных стилях и со вкусом.</p>
+                            </div>
+                            <img src="../static/img/services/image.png" alt="image1">
+                        </div>
+                        <div class="serv_item">
+                            <div class="serv_item_text">
+                                <h3>ПРОЕКТИРОВАНИЕ</h3>
+                                <p>Производим высокоточные архитектурные инженерные расчёты любого плана. С нами
+                                    вы можете не беспокоиться о долговечности и качестве любых конструкций.</p>
+                            </div>
+                            <img src="../static/img/services/image(1).png" alt="image1">
+                        </div>
+                        <div class="serv_item">
+                            <div class="serv_item_text">
+                                <h3>ПОСТАВКА ДЕРЕВА</h3>
+                                <p>Мы поставляем исключительно качественные породы древесины от надёжных итальянских
+                                    и французских поставщиков. Вся древесина соответствует евростандарту.</p>
+                            </div>
+                            <img src="../static/img/services/image(2).png" alt="image1">
+                        </div>
+                        <div class="serv_item">
+                            <div class="serv_item_text">
+                                <h3>РЕМОНТ</h3>
+                                <p>Выполняем ремон мебели и изделий из древесины. В нашей современной технологичной
+                                    мастерской найдутся инструменты и материалы для любых задач.</p>
+                            </div>
+                            <img src="../static/img/services/image(3).png" alt="image1">
+                        </div>
+                        <div class="serv_item">
+                            <div class="serv_item_text">
+                                <h3>КОНЦЕПТ</h3>
+                                <p>Одно из наших направлений - создание концептуальных инсталляций из древесины для
+                                    тех, кто ценит современное искусство и желает разнообразить свой интерьер.</p>
+                            </div>
+                            <img src="../static/img/services/image(4).png" alt="image1">
+                        </div>
+                        <div class="serv_item">
+                            <div class="serv_item_text">
+                                <h3>ВЫЕЗД МАСТЕРА</h3>
+                                <p>Вы обладатель старинной, тяжёлой или необычной мебели или изделий из древесины?
+                                    Мы приедем к вам со всем необходимым инструментом сами.</p>
+                            </div>
+                            <img src="../static/img/services/image(5).png" alt="image1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services_button">
+                <a href="#">ОФОРМИТЬ ЗАЯВКУ</a>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+

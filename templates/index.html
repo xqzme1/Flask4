@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% block css %}home.css{% endblock %}
+{% block title %}Homepage{% endblock %}
+{% block body %}
+    <header class="header">
+        <div class="container">
+            {% include 'header.html' %}
+            {% block header_content %}
+                <div class="header_content">
+                    <h1>Woodhouse</h1>
+                    <h4>Дизайн на высоком уровне</h4>
+                    <p>
+                        Разработка и реализация красивых интерьеров из дерева ещё никогда не была так доступна.
+                        Интерьеры из дерева различной породы сделают ваш дом уютным и тёплым, радуя вас и ваших
+                        гостей.
+                    </p>
+                </div>
+            {% endblock %}
+        </div>
+    </header>
+    <main>
+        <div class="sect_trust">
+            <div class="container">
+                <div class="sect_trust__inner">
+                    <div class="sect_trust_content">
+                        <div class="trust_item_content">
+                            <h3>НАМ ДОВЕРЯЮТ</h3>
+                            <div class="trust_items">
+                                <p class="item"><b>860</b> клиентов по всему миру</p>
+                                <p class="item"><b>23</b> надёжных партнёра</p>
+                                <p class="item"><b>12</b> поставщиков</p>
+                                <p class="item"><b>36</b> лучших франчайзи</p>
+                                <p class="item"><b>108</b> производителей мебели</p>
+                                <p class="item"><b>85</b> сотрудников</p>
+                                <p class="item"><b>38</b> пернатых попугаев</p>
+                                <p class="item"><b>256</b> восьмибитных цветов</p>
+                            </div>
+                        </div>
+                        <div class="trust_item_content_right">
+                            <p class="item">Позвоните нам или оставьте заявку с сайта.
+                                Мы перезвоним вам в течение 10 минут.</p>
+                            <h1>+7 (499) 246-75-32</h1>
+                            <p><a href="" class="trust_button">Оформить заявку сейчас</a></p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="best_works">
+            <div class="container">
+                <div class="best_works__inner">
+                    <div class="bw_top_content">
+                        <div class="bw_top_item1">
+                            <p>
+                            Представляем вам лучшие проекты, разработанные нашей командой профессионалов с любовью и
+                            заботой о клиентах. Портфолио позволит вам выбрать интересующий стиль, цвет дерева, фактуру,
+                            дизайн и расположение элементов.
+                            </p>
+                        </div>
+                        <div class="bw_top_item2">
+                            <h3> \\ ЛУЧШИЕ РАБОТЫ </h3>
+                            <h1>Создаём тёплую атмосферу вашего отдыха</h1>
+                        </div>
+                    </div>
+
+                    <div class="bw_bottom_content">
+                        <div class="bw_bottom_items">
+                            <div class="bw_item">
+                                <img src="../static/img/home/bw_items_1.png" alt="">
+                                <div class="bw_item_text">
+                                    <p>Санкт-Петербург, Английский Пр.</p>
+                                    <h4>Современная гостиная в древесных тонах</h4>
+                                </div>
+                            </div>
+
+                            <div class="bw_item">
+                                <img src="../static/img/home/bw_items_2.png" alt="">
+                                <div class="bw_item_text">
+                                    <p>Санкт-Петербург, Английский Пр.</p>
+                                    <h4>Современная гостиная в древесных тонах</h4>
+                                </div>
+                            </div>
+
+                            <div class="bw_item">
+                                <img src="../static/img/home/bw_items_3.png" alt="">
+                                <div class="bw_item_text">
+                                    <p>Санкт-Петербург, Английский Пр.</p>
+                                    <h4>Современная гостиная в древесных тонах</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block_button">
+                        <a href="#" class="bw-button">
+                            Показать ещё
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
